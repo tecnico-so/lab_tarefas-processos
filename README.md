@@ -32,13 +32,7 @@ Aceda à diretoria com o comando:
 cd lab_programacao-processos-tarefas
 ```
 
-Descomprima o conteúdo do ficheiro thread.zip com o seguinte comando:
-
-```sh
-unzip thread.zip
-```
-
-a) Estude, compile e execute a aplicação. Consulte o diagrama na página seguinte deste guião e
+a) Na pasta `src` estude, compile e execute a aplicação. Consulte o diagrama na página seguinte deste guião e
 compreenda o resultado do programa.
 
 b) Porque razão diferentes execuções do programa podem resultar em diferentes valores para variável global `Value`?
