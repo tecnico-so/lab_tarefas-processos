@@ -1,8 +1,14 @@
-# Guião Programação com processos e tarefas
+# Guião 4: Programação com processos e tarefas
 
 ![IST](img/IST_DEI.png)  
 
 ## Objectivos
+
+No final deste guião, deverá ser capaz de:
+
+- compreender os conceitos programação paralela com processos e tarefas (que
+é um dos requisitos essenciais do 1º exercício do projeto de SO)
+- utilizar primitivas para a gestão de processos e tarefas como `pthread_create`, `pthread_join`, `fork` e `wait`.
 
 *Nota: Os tutoriais práticos de SO consistem num conjunto de exercícios práticos que permitem aos alunos
 familiarizarem-se com um determinado tema que será necessário para resolver os projetos da disciplina.
@@ -12,11 +18,9 @@ Cada tutorial pressupõe que os exercícios são realizados numa interface de li
 um sistema Unix/Linux ou equivalente. Assume também que os alunos já resolveram os tutoriais
 anteriores.*
 
-No final deste guião, deverá ser capaz de:
+## Requisitos
 
-- Estar familiarizado com programação paralela com tarefas (que
-é um dos requisitos essenciais do 1º exercício do projeto de SO)
-- Estar familiarizado com programação paralela com processos
+- Sistema operativo Linux 20.04 LTS (se não o tiverem disponível no vosso computador pessoal, podem utilizar os computadores do laboratório);
 
 ## 1. Tarefas
 
@@ -37,10 +41,10 @@ unzip thread.zip
 a) Estude, compile e execute a aplicação. Consulte o diagrama na página seguinte deste guião e
 compreenda o resultado do programa.
 
-b) Por que razão é indeterminado o conteúdo da variável global Value?
+b) Porque razão diferentes execuções do programa podem resultar em diferentes valores para variável global `Value`?
 
 c) Monte uma experiência que prove a afirmação da alínea b). Sugestão: utilize a chamada sistema
-sleep.
+`sleep`.
 
 ## 2. Processos
 
