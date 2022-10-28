@@ -42,8 +42,8 @@ c) Monte uma experiência que prove a afirmação da alínea b). Sugestão: util
 
 ## 2. Processos
 
-Componha um programa paralelo alternativo, em que as chamadas a pthread_create e pthread_join
-são substituídas por chamadas a fork e wait (tenha o cuidado de assegurar que a função wait só é
+Componha um programa paralelo alternativo, em que as chamadas a `pthread_create` e `pthread_join`
+são substituídas por chamadas a `fork` e `wait` (tenha o cuidado de assegurar que a função `wait` só é
 chamada pelo processo pai).
 
 a) Neste caso, o paralelismo acontecerá com processos distintos, e não com tarefas dentro do mesmo
