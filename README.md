@@ -47,7 +47,7 @@ Componha um programa paralelo alternativo, em que as chamadas a `pthread_create`
 são substituídas por chamadas a `fork` e `wait` (tenha o cuidado de assegurar que a função `wait` só é
 chamada pelo processo pai).
 
-a) Neste caso, o paralelismo acontecerá com processos distintos, e não com tarefas dentro do mesmo
+Neste caso, o paralelismo acontecerá com processos distintos, e não com tarefas dentro do mesmo
 processo. O que muda no resultado que este novo programa imprime no stdout?
 
 ![THREAD](img/thread_image.png)
