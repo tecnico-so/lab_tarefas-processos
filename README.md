@@ -22,7 +22,11 @@ anteriores.*
 
 - Sistema operativo Linux 20.04 LTS (se não o tiverem disponível no vosso computador pessoal, podem utilizar os computadores do laboratório);
 
-## 1. Tarefas
+## 1. A Relembrar
+
+Visite o guião de Deteção de Erros onde se encontra uma secção sobre o uso de sanitizadores de código. Como iremos lidar com programas concorrentes aconselha-se a utilização do ThreadSanitizer. Para isto, note a ativação deste sanitizador com a opção `-fsanitize` na *Makefile*.
+
+## 2. Tarefas
 
 Clone este repositório, usando o git: `git clone git@github.com:tecnico-so/lab_programacao-processos-tarefas`.
 
@@ -41,7 +45,7 @@ c) Monte uma experiência que prove a afirmação da alínea b).
 
 *Sugestão: utilize a chamada sistema`sleep`.*
 
-## 2. Processos
+## 3. Processos
 
 Componha um programa paralelo alternativo, em que as chamadas a `pthread_create` e `pthread_join`
 são substituídas por chamadas a `fork` e `wait` (tenha o cuidado de assegurar que a função `wait` só é

@@ -5,7 +5,7 @@
 #
 
 CC = gcc
-CFLAGS = -g -Wall -std=c17
+CFLAGS = -g -Wall -std=c17 -fsanitize=thread
 TARGETS = thread
 
 # We need to pass into a library flag -lpthread. 
