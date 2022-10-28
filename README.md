@@ -37,16 +37,17 @@ compreenda o resultado do programa.
 
 b) Porque razão diferentes execuções do programa podem resultar em diferentes valores para variável global `g_value`?
 
-c) Monte uma experiência que prove a afirmação da alínea b). Sugestão: utilize a chamada sistema
-`sleep`.
+c) Monte uma experiência que prove a afirmação da alínea b). 
+
+*Sugestão: utilize a chamada sistema`sleep`.*
 
 ## 2. Processos
 
-Componha um programa paralelo alternativo, em que as chamadas a pthread_create e pthread_join
-são substituídas por chamadas a fork e wait (tenha o cuidado de assegurar que a função wait só é
+Componha um programa paralelo alternativo, em que as chamadas a `pthread_create` e `pthread_join`
+são substituídas por chamadas a `fork` e `wait` (tenha o cuidado de assegurar que a função `wait` só é
 chamada pelo processo pai).
 
-a) Neste caso, o paralelismo acontecerá com processos distintos, e não com tarefas dentro do mesmo
+Neste caso, o paralelismo acontecerá com processos distintos, e não com tarefas dentro do mesmo
 processo. O que muda no resultado que este novo programa imprime no stdout?
 
 ![THREAD](img/thread_image.png)
