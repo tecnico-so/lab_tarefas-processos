@@ -37,8 +37,9 @@ compreenda o resultado do programa.
 
 b) Porque razão diferentes execuções do programa podem resultar em diferentes valores para variável global `Value`?
 
-c) Monte uma experiência que prove a afirmação da alínea b). Sugestão: utilize a chamada sistema
-`sleep`.
+c) Monte uma experiência que prove a afirmação da alínea b). 
+
+*Sugestão: utilize a chamada sistema`sleep`.*
 
 ## 2. Processos
 
