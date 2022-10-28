@@ -35,7 +35,7 @@ cd lab_programacao-processos-tarefas
 a) Na pasta `src` estude, compile e execute a aplicação. Consulte o diagrama na página seguinte deste guião e
 compreenda o resultado do programa.
 
-b) Porque razão diferentes execuções do programa podem resultar em diferentes valores para variável global `Value`?
+b) Porque razão diferentes execuções do programa podem resultar em diferentes valores para variável global `g_value`?
 
 c) Monte uma experiência que prove a afirmação da alínea b). Sugestão: utilize a chamada sistema
 `sleep`.
