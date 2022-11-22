@@ -20,7 +20,7 @@ anteriores.*
 
 ## Requisitos
 
-- Sistema operativo Linux 20.04 LTS (se não o tiverem disponível no vosso computador pessoal, podem utilizar os computadores do laboratório);
+- Sistema operativo Linux Ubuntu 20.04 LTS (se não o tiverem disponível no vosso computador pessoal, podem utilizar os computadores do laboratório);
 
 ## 1. A Relembrar
 
