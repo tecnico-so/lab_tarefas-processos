@@ -28,7 +28,7 @@ Visite o guião de Deteção de Erros onde se encontra uma secção sobre o uso 
 
 ## 2. Tarefas
 
-Clone este repositório, usando o git: `git clone git@github.com:tecnico-so/lab_programacao-processos-tarefas`.
+Clone este repositório, usando o git: `git clone https://github.com/tecnico-so/lab_programacao-processos-tarefas.git`.
 
 Aceda à diretoria com o comando:
 
