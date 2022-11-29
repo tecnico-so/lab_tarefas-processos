@@ -1,4 +1,4 @@
-# Guião 4: Programação com processos e tarefas
+# Guião 4: Programação com tarefas e processos
 
 ![IST](img/IST_DEI.png)  
 
@@ -6,8 +6,9 @@
 
 No final deste guião, deverá ser capaz de:
 
-- compreender os conceitos programação paralela com processos e tarefas (que é um dos requisitos essenciais do 1º exercício do projeto de SO);
-- utilizar primitivas para a gestão de processos e tarefas como `pthread_create`, `pthread_join`, `fork` e `wait`.
+- compreender os conceitos programação paralela com tarefas (que é um dos requisitos essenciais do 1º exercício do projeto de SO) e também com processos;
+- utilizar primitivas para a gestão de tarefas como o `pthread_create` e `pthread_join`;
+- utilizar primitivas para a gestão de processos, como o `fork` e `wait`.
 
 ## Requisitos
 
@@ -15,9 +16,9 @@ No final deste guião, deverá ser capaz de:
 
 ## 1. Tarefas
 
-Clone este repositório, usando: `git clone https://github.com/tecnico-so/lab_programacao-processos-tarefas.git`.
+Clone este repositório, usando: `git clone https://github.com/tecnico-so/lab_tarefas-processos.git`.
 
-Aceda à diretoria com o comando: `cd lab_programacao-processos-tarefas`.
+Aceda à diretoria com o comando: `cd lab_tarefas-processos`.
 
 Na pasta `src` estude, compile e execute a aplicação.  
 O programa cria diferentes tarefas (*threads*) a executar em paralelo.
