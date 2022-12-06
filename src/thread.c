@@ -8,7 +8,7 @@
 /* global value */
 int g_value = 0;
 
-void* thr_func(void*) {
+void* thr_func(void *p) {
     g_value = 1;
     return NULL;
 }
