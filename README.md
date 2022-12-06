@@ -2,7 +2,7 @@
 
 ![IST](img/IST_DEI.png)  
 
-## Objectivos
+## Objetivos
 
 No final deste guião, deverá ser capaz de:
 
@@ -51,6 +51,14 @@ Componha um programa paralelo alternativo, `process.c`, em que as chamadas a `pt
 
 Neste caso, o paralelismo acontecerá com processos distintos, e não com tarefas dentro do mesmo processo.
 O que muda no resultado que este novo programa imprime no *stdout*?
+
+----
+
+## Conclusão
+
+As tarefas (_threads_) permitem ter paralelismo dentro de um processo, com partilha de memória.
+Os processos permitem ter paralelismo dentro de um sistema, permitindo ter várias aplicações a executar-se separadamente, com isolamento da memória.
+Neste laboratório vimos os dois tipos de paralelismo em ação.
 
 ----
 
