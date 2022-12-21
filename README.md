@@ -1,4 +1,4 @@
-# Guião 4: Programação com tarefas e processos
+# Guião sobre programação com tarefas e processos
 
 ![IST](img/IST_DEI.png)  
 
